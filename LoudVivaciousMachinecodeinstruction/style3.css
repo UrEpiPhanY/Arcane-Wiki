@@ -1,0 +1,48 @@
+#topsideLoc, #undercityLoc, .charIcon {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  gap: 50px;
+  max-width: 1400px;
+  margin: 40px auto;
+  padding: 20px 10px;
+}
+
+#undercityLoc {
+  margin-top: 100px;
+}
+
+.location .locName {
+  background-color: #332332;
+  color: #e9dcca;
+  padding: 8px;
+  width: 100%;
+  font-size: 25px;
+  font-weight: bold;
+  letter-spacing: 0.1em;
+  margin-bottom: 0px;
+  border-radius: 10px;
+  border: 1px solid black;
+  box-shadow: 5px 10px 10px 0 rgba(0, 0,  0, 0.50);
+}
+
+.location {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: transparent;
+  transition-duration: 0.02s;
+  transition-timing-function: ease-in-out;
+}
+
+.location img {
+  width: 100%;
+  max-width: 600px;
+  height: 400px;
+  object-fit: cover;
+  border-radius: 10px;
+  border: 1px solid black;
+  box-shadow: 5px 10px 10px 0 rgba(0, 0,  0, 0.50);
+}

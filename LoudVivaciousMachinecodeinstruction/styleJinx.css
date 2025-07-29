@@ -1,0 +1,129 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.explore{
+  margin-top: 55px;
+  text-align: center;
+  font-family: 'Arcane', sans-serif;
+  color: black;
+}
+
+/* Character Name Text */
+h1, h2 {
+  font-size: 70px;
+  background: linear-gradient(
+    180deg,
+    #8ce8ff,
+    #182051);
+  -webkit-text-fill-color: transparent;
+  -webkit-background-clip: text;
+  text-align: center;
+}
+
+.characterPageBG {
+  height: 100%;
+  width: 100%;
+  background-image: linear-gradient(
+    180deg,
+    rgba(0, 0, 0, 0),
+    rgba(0, 0, 0, 4)
+    ),
+    url("JinxPageBG.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  position: absolute;
+  top: 100px; 
+  bottom: 0;
+  right: 0;
+  left: 0;
+  overflow: visible;
+  z-index: 1;
+}
+
+.descContBG {
+  height: 100%;
+  width: 100%;
+  background-image: linear-gradient(
+    180deg,
+    rgba(0, 0, 0, 4),
+    rgba(0, 0, 0, 0)
+    ),
+    url("JinxAnimated.gif");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  position: absolute;
+  top: 940px; 
+  bottom: 0;
+  right: 0;
+  left: 0;
+  overflow: visible;
+  z-index: 1;
+}
+
+/* Description Continuation Text */
+h2 {
+  font-size: 70px;
+  background: linear-gradient(
+    180deg,
+    #be61d6,
+    #2c49cf);
+  -webkit-text-fill-color: transparent;
+  -webkit-background-clip: text;
+}
+
+p, .description {
+  font-family: 'Gothic A1', sans-serif;
+  color: white;
+  font-size: 25px;
+  margin-top: 20px;
+  margin-left: 550px;
+}
+
+.description  {
+  margin-top: 40px;
+  margin-left: 600px;
+  margin-bottom: -20px;
+}
+
+#charDesc {
+  justify-content: center;
+  max-width: 1400px;
+  margin: 40px auto;
+  padding: 20px 10px;
+}
+
+#descCont {
+  width: 2000px;
+  margin-top: 100px;
+  margin-right: 200px;
+  margin-left: -400px;
+}
+
+.charRender {
+  display: flex;
+  flex-direction: column;
+  margin-right: 870px;
+}
+
+.charRender img {
+  height: 700px;
+  position: absolute;
+  bottom: 15%;
+  right: 63%;
+  -webkit-mask-image: -webkit-gradient(
+    linear, left top, left bottom,
+    from(rgba(0,0,0,1)),
+    to(rgba(0,0,0,0)))
+}
+
+.copyrightText{
+  font-size: 16px;
+}
+
+
+  

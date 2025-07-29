@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="https://fonts.cdnfonts.com/css/arcane" rel="stylesheet" />
+  <link href="https://fonts.googleapis.com/css2?family=Gothic+A1:wght@600&display=swap" rel="stylesheet" />
+
+  <title>Error 504</title>
+  <style>
+    body {
+      margin: 0;
+      background-color: black;
+      background-image: url("JinxError1.png");
+      background-size: cover;
+      background-repeat: no-repeat;
+    }
+
+    #error2 {
+      position: fixed;
+      top: 25%;
+      left: 25%;
+      justify-content: center;
+    }
+
+    h1 {
+      font-family: arcane, sans-serif;
+      color: white;
+    }
+
+    h2 {
+      font-family: 'Gothic A1', sans-serif;
+      color: white;
+    }
+
+    #button {
+      font-family: arcane;
+      text-align: center;
+      height: 100px;
+      width: 300px;
+      background: linear-gradient(90deg,
+          ##ffffff,
+          #red);
+      border: none;
+      box-shadow: 5px 10px 10px 0 black;
+      color: #241a27;
+      padding: 15px 32px;
+      text-align: center;
+      text-decoration: none;
+      display: inline-block;
+      font-size: 25px;
+      clip-path: polygon(20% 0%, 100% 0, 100% 100%, 0% 100%);
+      transition: background 2.0s;
+    }
+
+    #button:hover {
+      background: linear-gradient(90deg,
+          #d0b58e,
+          #9c6b2e);
+    }
+
+    #response-headers {
+      font-family: 'Gothic A1', sans-serif;
+      margin-top: 50px;
+      color: #dbdbdb;
+    }
+  </style>
+</head>
+
+<body>
+  <div id="error2" style="text-align: center;">
+    <h1 id="error-3-desc">Whoops! Looks like Jinx crashed the party.
+      We'll get back to you soon.
+    </h1>
+    <h2 id="error-6-desc">Error 504
+    </h2>
+    <h2 id="error-6-desc">Timeout Error</h2>
+
+    <br /><br /><br />
+    <form method="get" action="submit"><input type="submit" value="   Back to Homepage" id="button"></form>
+
+    <div id="response-headers">
+      <h3>Response Headers:</h3>
+    </div>
+  </div>
+</body>
+
+</html>

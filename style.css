@@ -23,36 +23,40 @@ header {
   height: 20px;
   filter: invert(1);
 }
+
 .logo {
   padding-top: 20px;
   width: 170px;
 }
-nav{
+
+nav {
   display: flex;
   align-items: center;
   justify-content: space-between;
 }
-.nav-links{
+
+.nav-links {
   margin-top: 10px;
   padding: 28px 10px;
-  font-family: 'Arcane' , sans-serif;
+  font-family: 'Arcane', sans-serif;
   font-weight: bold;
 }
-.nav-links li{
+
+.nav-links li {
   display: inline-block;
   margin: 0 15px;
 }
 
-.nav-links li a{
+.nav-links li a {
   text-decoration: none;
-  
-  color: rgb(230,212,189);
+
+  color: rgb(230, 212, 189);
   padding: 5px 0;
   position: relative;
   font-size: 20px;
 }
 
-.nav-links li a::after{
+.nav-links li a::after {
   content: '';
   background: gold;
   width: 0;
@@ -62,18 +66,18 @@ nav{
   left: 0;
   transition: width 0.5s;
 }
-s
-.nav-links li a:hover::after{
+
+s .nav-links li a:hover::after {
   width: 100%;
 }
 
-.searchBar{
+.searchBar {
   width: 250px;
   height: 30px;
   font-size: 17px;
   display: in-line;
-  background-color:#282828;
-  color:white;
+  background-color: #282828;
+  color: white;
   border-radius: 5px;
 }
 
@@ -85,20 +89,22 @@ s
   background-repeat: no-repeat;
   background-position: center;
   position: absolute;
-  top: 100px; 
+  top: 100px;
   bottom: 0;
   right: 0;
   left: 0;
   overflow: visible;
   z-index: 1;
 }
-.explore{
+
+.explore {
   margin-top: 55px;
   text-align: center;
   font-family: 'Arcane', sans-serif;
   color: black;
 }
-.ytVids{
+
+.ytVids {
   padding: 0;
   display: flex;
   align-items: center;
@@ -110,18 +116,16 @@ body {
   background-color: #111111;
 }
 
-.mediaGallery{
-  padding-top: 200px; 
+.mediaGallery {
+  padding-top: 200px;
   padding-left: 175px;
   padding-right: 175px;
   margin: 80px 0 0 0;
   height: 100%;
   width: 100%;
-  background-image: linear-gradient(
-    180deg,
-    rgba(0, 0, 0, 0.6),
-    rgba(106, 59, 98, 0.3)
-    ),
+  background-image: linear-gradient(180deg,
+      rgba(0, 0, 0, 0.6),
+      rgba(106, 59, 98, 0.3)),
     url('JinxMain.png');
   background-size: cover;
   background-repeat: no-repeat;
@@ -131,21 +135,21 @@ body {
   bottom: 0;
   z-index: 2;
 }
-.button-choices{
+
+.button-choices {
   padding: 150px;
   display: flex;
   align-items: center;
   justify-content: space-between;
   width: 100%;
 }
-.button-design{
-  height: 100px; 
+
+.button-design {
+  height: 100px;
   width: 300px;
-  background: linear-gradient(
-    90deg,
-    #040c14 20%,
-    black
-  ); 
+  background: linear-gradient(90deg,
+      #040c14 20%,
+      black);
   border: none;
   box-shadow: 5px 10px 10px 0 black;
   color: white;
@@ -153,27 +157,28 @@ body {
   text-align: center;
   text-decoration: none;
   display: inline-block;
-  font-size: 25px;  
+  font-size: 25px;
   clip-path: polygon(20% 0%, 100% 0, 100% 100%, 0% 100%);
   transition: background 1.5s ease-out;
 }
+
 .button-design:hover {
-  background: linear-gradient(
-    90deg,
-    gold,
-    #AA6C39
-  );
+  background: linear-gradient(90deg,
+      gold,
+      #AA6C39);
 }
+
 .footer-img {
   height: 50%;
   width: 100%;
   background-image: url("Footer.png");
   background-repeat: no-repeat;
-  top: 1995px;
+  top: 2020px;
   z-index: 2;
   position: absolute;
   display: flex;
 }
+
 .Netflix {
   width: 150px;
   height: 150px;
@@ -181,7 +186,8 @@ body {
   top: 20%;
   left: 47%;
 }
-.riotGames{
+
+.riotGames {
   width: 50px;
   height: 50px;
   position: absolute;
@@ -190,14 +196,17 @@ body {
   filter: brightness(50%);
   transition: filter 0.5s;
 }
-.riotGameslogo{
+
+.riotGameslogo {
   width: 390px;
   height: 200px;
 }
-.riotGames:hover{
+
+.riotGames:hover {
   filter: brightness(200%);
 }
-.copyrightContainer{
+
+.copyrightContainer {
   margin: 0;
   position: absolute;
   top: 60%;
@@ -206,7 +215,8 @@ body {
   align-content: right;
   justify-content: right;
 }
-.copyrightText{
+
+.copyrightText {
   padding-top: 20px;
   width: 900px;
   font-family: 'Gothic A1', sans-serif;
@@ -214,12 +224,11 @@ body {
   text-align: center;
   margin: 0;
 }
-.border{
+
+.border {
   width: 100%;
   height: 2px;
   background-color: #7F7F7F;
   position: absolute;
   top: 50.5%;
 }
-
-  
